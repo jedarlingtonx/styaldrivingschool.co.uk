@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Styal Driving School | Driving lessons in South Manchester and Cheshire</title>
+<meta name="description" content="One-to-one driving lessons with Jon Bennion, covering South Manchester and Cheshire, including Wilmslow, Alderley Edge, Knutsford and Northwich.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%230B4F9C'/%3E%3Crect x='14' y='14' width='36' height='36' rx='4' fill='%23fff'/%3E%3Cpath d='M26 21v20h14' fill='none' stroke='%23D4202C' stroke-width='7'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,500..900&family=Atkinson+Hyperlegible+Next:wght@200..800&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#0B4F9C;--blue-d:#093F7C;--tar:#1A1C1F;--tar-d:#121416;--line:#F4F5F2;--tint:#E6EDF6;--yellow:#F5C400;--red:#D4202C;--ink:#1A1C1F;--muted:#444C55;--rule:#D3D9E0}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--line);color:var(--ink);font-family:'Atkinson Hyperlegible Next',system-ui,sans-serif;font-size:18px;line-height:1.6}
+a{color:var(--blue)}a:hover{color:var(--blue-d)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--ink);outline-offset:3px;box-shadow:0 0 0 7px var(--yellow)}
+h1,h2,h3{font-family:'Archivo',system-ui,sans-serif;margin:0;font-stretch:112.5%;font-weight:800;text-wrap:balance}
+h2{font-size:clamp(34px,4.4vw,56px);line-height:1.02;letter-spacing:-.018em}
+h3{font-stretch:100%;font-weight:700;letter-spacing:-.005em}
+p{text-wrap:pretty;margin:0}
+.wrap{max-width:1240px;margin:0 auto;padding:96px 32px}
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:'Archivo',sans-serif;font-stretch:100%;font-weight:700;font-size:18px;text-decoration:none;padding:15px 28px;border-radius:12px;border:2px solid transparent;line-height:1.2}
+.btn.y{background:var(--yellow);color:#111}.btn.y:hover{background:#ffd633;color:#111}
+.btn.o{border-color:#fff;color:#fff}.btn.o:hover{background:rgba(255,255,255,.14);color:#fff}
+.btn.b{background:var(--blue);color:#fff}.btn.b:hover{background:var(--blue-d);color:#fff}
+.btn.ob{border-color:var(--blue);color:var(--blue)}.btn.ob:hover{background:var(--tint);color:var(--blue-d)}
+.btn.k{background:#111;color:#fff}.btn.k:hover{background:#000;color:#fff}
+.ribbon{background:var(--tar-d);color:#fff;padding:10px 24px;display:flex;flex-wrap:wrap;gap:4px 16px;justify-content:center;font-size:14px;line-height:1.4}
+.ribbon strong{color:var(--yellow)}
+/* header */
+header.top{background:var(--line);position:relative;z-index:5}
+.top-in{max-width:1240px;margin:0 auto;padding:18px 32px;display:flex;flex-wrap:wrap;gap:12px 32px;align-items:center;justify-content:space-between}
+.mark{display:inline-flex;flex-direction:column;text-decoration:none;color:#fff;background:var(--blue);border-radius:12px;padding:9px 18px 10px;box-shadow:inset 0 0 0 2px var(--blue),inset 0 0 0 4px #fff;line-height:1}
+.mark:hover{color:#fff}
+.mark b{font-family:'Archivo',sans-serif;font-stretch:112.5%;font-weight:800;font-size:30px;letter-spacing:-.01em}
+.mark small{font-size:13px;font-weight:500;letter-spacing:.04em;margin-top:3px;opacity:.95}
+#nav{display:flex;flex-wrap:wrap;gap:4px 28px;align-items:center;font-size:17px}
+#nav a{color:var(--ink);text-decoration:none;padding:10px 0;font-weight:500}
+#nav a.call{background:var(--blue);color:#fff;font-weight:700;padding:12px 22px;border-radius:12px}
+#nav a.call:hover{background:var(--blue-d)}
+.burger{display:none;align-items:center;justify-content:center;width:48px;height:48px;border:2px solid var(--blue);border-radius:12px;background:#fff;color:var(--blue);cursor:pointer}
+@media (min-width:761px){#nav a:not(.call){text-decoration:underline;text-decoration-color:transparent;text-decoration-thickness:3px;text-underline-offset:8px;transition:text-decoration-color .15s}#nav a:not(.call):hover,#nav a:not(.call):focus-visible{text-decoration-color:var(--yellow)}}
+/* hero */
+.hero{position:relative;overflow:hidden;background:var(--blue)}
+.hero-art{position:absolute;inset:0}
+.hero-art svg{display:block;width:100%;height:100%}
+.hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:68% 55%;display:block}
+@media (max-width:1100px){.hero-photo{object-position:62% 50%}}
+.hero-art::after{content:"";position:absolute;inset:0;background:linear-gradient(to right,rgba(9,63,124,.97) 0,rgba(9,63,124,.95) 36%,rgba(9,63,124,.55) 52%,rgba(9,63,124,0) 66%)}
+.hero-in{position:relative;z-index:1;max-width:1240px;margin:0 auto;padding:40px 32px 120px;min-height:640px;display:flex;align-items:center}
+.hero-text{flex:0 1 680px;min-width:0}
+.hero h1{font-size:clamp(44px,5.4vw,76px);line-height:.96;letter-spacing:-.025em;color:#fff;margin-bottom:26px;font-stretch:112.5%}
+.hero-card p{font-size:21px;line-height:1.55;color:#EAF1FA;max-width:520px;margin-bottom:34px}
+.cta{display:flex;flex-wrap:wrap;gap:14px}
+.road-car{transform-box:fill-box;transform-origin:50% 100%}
+.walkers{transform:translateX(70px)}
+@media (prefers-reduced-motion:no-preference){
+.road-car{animation:pull 1.9s cubic-bezier(.2,.7,.2,1) both}
+.tail{animation:brake 10.4s ease-out both}
+.walkers{animation:cross 8s linear 2.3s both}
+.beacon{animation:flash 1.6s steps(1,end) infinite}
+.wad{transform-box:fill-box;transform-origin:50% 100%;animation:waddle .5s ease-in-out 2.3s 16 alternate both}
+.wad.b{animation-delay:2.45s}
+}
+@keyframes pull{from{transform:translateY(34px) scale(1.22)}to{transform:none}}
+@keyframes brake{0%,96%{fill:#FF4D5E}100%{fill:#C41E30}}
+@keyframes flash{0%{opacity:1}50%{opacity:.25}}
+@keyframes cross{from{transform:translateX(0)}to{transform:translateX(158px)}}
+@keyframes waddle{from{transform:translateY(0) rotate(-4deg)}to{transform:translateY(-3px) rotate(4deg)}}
+.ground{transform:translate(0,-50px)}
+/* facts */
+.facts{background:var(--tar);color:#fff}
+.facts ul{max-width:1240px;margin:0 auto;padding:26px 32px;list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(250px,100%),1fr));gap:18px 32px}
+.facts li{display:flex;gap:14px;align-items:center;font-size:16px;line-height:1.35}
+.facts svg{flex:none}
+.facts b{display:block;font-family:'Archivo',sans-serif;font-stretch:100%;font-weight:700;font-size:19px}
+/* about */
+.about{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:48px 88px;align-items:start}
+.about p{color:var(--muted);margin-top:22px;max-width:56ch}
+.about p.lead{font-size:21px;color:var(--ink);line-height:1.55}
+.ticks{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.ticks li{display:flex;gap:16px;align-items:flex-start;padding:20px 0;background:repeating-linear-gradient(90deg,var(--rule) 0 14px,transparent 14px 26px) top/100% 3px no-repeat}
+.ticks li:first-child{background:none;padding-top:4px}
+.ticks svg{flex:none;margin-top:2px}
+.ticks b{font-family:'Archivo',sans-serif;font-stretch:100%;font-weight:700;font-size:21px;display:block;line-height:1.25}
+.ticks span{color:var(--muted);font-size:17px}
+/* lessons */
+.lessons{background:#fff}
+.lead-in{display:flex;flex-wrap:wrap;gap:20px 56px;align-items:flex-end;justify-content:space-between;margin-bottom:56px}
+.lead-in p{max-width:420px;color:var(--muted)}
+.grp{background:var(--line);border-radius:22px;padding:36px 44px 14px}
+.grp+.grp{margin-top:32px;background:var(--tint)}
+.grp-head{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;padding-bottom:26px}
+.grp-head .tag{display:inline-block;background:var(--blue);color:#fff;font-family:'Archivo',sans-serif;font-stretch:100%;font-weight:700;font-size:20px;line-height:1;padding:12px 20px;border-radius:10px;box-shadow:inset 0 0 0 2px var(--blue),inset 0 0 0 4px #fff}
+.grp-head p{color:var(--muted);margin:0}
+.grp-head+.row{background:none}
+.grp+.grp .row{background-image:repeating-linear-gradient(90deg,#B4C3D6 0 14px,transparent 14px 26px)}
+.grp+.grp .grp-head+.row{background:none}
+.row{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.5fr) 250px;gap:8px 40px;align-items:center;padding:26px 0;background:repeating-linear-gradient(90deg,var(--rule) 0 14px,transparent 14px 26px) top/100% 3px no-repeat}
+.row:first-of-type{background-position:0 0}
+.row h3{font-size:clamp(26px,3vw,36px);line-height:1.1;font-stretch:112.5%;font-weight:800;letter-spacing:-.012em}
+.row p{color:var(--muted)}
+.grp .row:last-child{padding-bottom:30px}
+@media (hover:hover) and (min-width:861px){
+.row h3{position:relative;transition:transform .22s ease}
+.row h3::before{content:"";position:absolute;left:-30px;top:50%;margin-top:-10px;border-left:15px solid var(--yellow);border-top:10px solid transparent;border-bottom:10px solid transparent;opacity:0;transition:opacity .22s}
+.row:hover h3{transform:translateX(22px)}
+.row:hover h3::before{opacity:1}
+}
+.row a{justify-self:end;font-family:'Archivo',sans-serif;font-stretch:100%;font-weight:700;color:var(--blue);text-decoration:none;padding:10px 0;border-bottom:3px solid var(--yellow);white-space:nowrap}
+.row a:hover{color:var(--blue-d);border-bottom-color:var(--blue)}
+/* steps */
+.steps-sec{background:var(--tint)}
+.steps{list-style:none;margin:56px 0 0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px 48px;position:relative}
+.steps::before{content:"";position:absolute;left:34px;right:34px;top:34px;height:3px;background:repeating-linear-gradient(90deg,#fff 0 14px,transparent 14px 26px)}
+.steps li{position:relative}
+.limit{width:70px;height:70px;border-radius:50%;background:#fff;border:8px solid var(--red);display:flex;align-items:center;justify-content:center;font-family:'Archivo',sans-serif;font-stretch:100%;font-weight:800;font-size:28px;color:#111;margin-bottom:22px;position:relative}
+.steps h3{font-size:25px;margin-bottom:10px}
+.steps p{color:var(--muted);max-width:34ch}
+/* areas sign */
+.areas{background:var(--tar);color:#fff}
+.sign{background:var(--blue);border-radius:22px;padding:56px 56px 48px;box-shadow:inset 0 0 0 5px var(--blue),inset 0 0 0 9px #fff,0 30px 60px -30px #000}
+.sign h2{color:#fff;margin-bottom:12px;max-width:16ch}
+.sign>p{color:#DCE8F6;margin-bottom:36px;max-width:52ch}
+.towns{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:6px 20px}
+.towns button{width:100%;display:flex;align-items:center;gap:12px;text-align:left;font-family:'Archivo',sans-serif;font-stretch:100%;font-weight:700;font-size:20px;color:#fff;background:transparent;border:0;border-radius:10px;padding:11px 14px;cursor:pointer;line-height:1.2}
+.towns button::before{content:"";flex:none;width:0;height:0;border-left:11px solid var(--yellow);border-top:7px solid transparent;border-bottom:7px solid transparent}
+.towns button:hover{background:rgba(255,255,255,.14)}
+.towns button[aria-pressed="true"]{background:#fff;color:var(--blue)}
+.towns button[aria-pressed="true"]::before{border-left-color:var(--blue)}
+.plate{margin-top:32px;border-radius:12px;padding:18px 22px;background:rgba(255,255,255,.12);color:#fff;font-size:19px;line-height:1.45}
+.plate.hit{background:var(--yellow);color:#111}
+.plate a{color:inherit;font-weight:700}
+.plate strong{font-family:'Archivo',sans-serif;font-stretch:100%}
+.ask{margin-top:18px}
+.ask button{font:inherit;font-family:'Archivo',sans-serif;font-weight:700;font-stretch:100%;color:#fff;background:transparent;border:2px solid rgba(255,255,255,.6);border-radius:10px;padding:10px 16px;cursor:pointer}
+.ask button:hover{background:rgba(255,255,255,.14)}
+.ask button[aria-pressed="true"]{background:#fff;color:var(--blue)}
+/* join */
+.join{background:var(--yellow);color:#111;position:relative}
+.join::before{content:"";display:block;height:16px;background:repeating-linear-gradient(135deg,#111 0 18px,var(--yellow) 18px 36px)}
+.join .wrap{padding:72px 32px 80px;display:flex;flex-wrap:wrap;gap:28px 64px;align-items:center;justify-content:space-between}
+.join .wrap>div{flex:1 1 460px}
+.join h2{font-size:clamp(32px,3.8vw,48px);margin-bottom:16px}
+.join p{max-width:56ch;font-size:19px}
+/* footer */
+footer{background:var(--tar-d);color:#CBD3DC}
+.fin{max-width:1240px;margin:0 auto;padding:64px 32px 40px;display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:36px 56px;font-size:16px}
+footer a{color:#fff;font-weight:700;display:inline-block;padding:6px 0}
+footer .mark{margin-bottom:18px}
+.fcta{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:20px 40px;align-items:center;justify-content:space-between;padding-bottom:36px;margin-bottom:8px;background:repeating-linear-gradient(90deg,#3A4048 0 14px,transparent 14px 26px) bottom/100% 3px no-repeat}
+.fcta h2{color:#fff;font-size:clamp(34px,5vw,64px)}
+.fnav{display:flex;flex-direction:column;align-items:flex-start}
+.fbar{background:repeating-linear-gradient(90deg,#3A4048 0 14px,transparent 14px 26px) top/100% 3px no-repeat}
+.fbar>div{max-width:1240px;margin:0 auto;padding:26px 32px;display:flex;flex-wrap:wrap;gap:8px 32px;justify-content:space-between;font-size:14px}
+.credit{display:inline-flex;align-items:flex-start;gap:10px}
+.credit svg{flex:none;margin-top:1px}
+.credit a{padding:0;white-space:nowrap}
+/* responsive */
+@media (max-width:1100px){
+.hero{display:grid;grid-template-columns:100%;background:var(--line)}
+.hero-art{grid-area:1/1;position:relative;height:540px}
+.hero-art::after{background:linear-gradient(to top,rgba(9,63,124,.95) 0,rgba(9,63,124,.72) 34%,rgba(9,63,124,0) 62%)}
+.hero-in,.hero-text{display:contents}
+.hero h1{grid-area:1/1;align-self:end;position:relative;z-index:3;width:100%;max-width:720px;margin:0 auto 104px;padding:0 24px;font-size:56px}
+.hero-card{grid-area:2/1;position:relative;z-index:4;width:calc(100% - 32px);max-width:720px;margin:-64px auto 56px;background:#fff;border-radius:18px;padding:30px 32px;box-shadow:0 24px 44px -26px rgba(9,40,80,.6)}
+.hero-card p{color:var(--muted);font-size:19px;margin-bottom:24px}
+.hero .btn.o{border-color:var(--blue);color:var(--blue)}.hero .btn.o:hover{background:var(--tint);color:var(--blue-d)}
+.hero .btn.y{background:var(--blue);color:#fff}.hero .btn.y:hover{background:var(--blue-d);color:#fff}
+.ground{transform:translate(0,-230px)}
+.about{grid-template-columns:1fr}
+.steps{grid-template-columns:1fr}.steps::before{display:none}
+.steps li{display:grid;grid-template-columns:70px 1fr;gap:0 22px}
+.steps .limit{grid-row:1/3;margin:0}
+.fin{grid-template-columns:1fr 1fr}.fin>div:nth-child(2){grid-column:1/-1}
+}
+@media (max-width:860px){.row{grid-template-columns:1fr;gap:6px}.row a{justify-self:start;margin-top:6px}}
+@media (max-width:760px){
+.top-in{padding:14px 20px}
+.burger{display:flex}
+#nav{display:none;width:100%;flex-direction:column;align-items:stretch;gap:0}
+#nav.open{display:flex}
+#nav a{padding:15px 4px;border-bottom:1px solid var(--rule);font-size:18px}
+#nav a.call{border-bottom:0;margin-top:12px;text-align:center}
+}
+@media (max-width:640px){
+.wrap{padding:64px 24px}
+.grp{padding:26px 22px 8px;border-radius:18px}
+.hero h1{font-size:44px;margin-bottom:92px}
+.hero-art{height:500px}
+.hero-card{width:calc(100% - 24px);padding:26px 22px}
+.cta .btn{flex:1 1 100%;justify-content:center}
+.sign{padding:40px 22px 32px;border-radius:18px}
+.towns{grid-template-columns:1fr 1fr;gap:4px 6px}
+.towns button{font-size:17px;padding:11px 8px;gap:8px}
+.fin{grid-template-columns:1fr;padding:48px 24px 28px}
+.fbar>div{padding:22px 24px;flex-direction:column}
+.join .wrap{padding:56px 24px 64px}
+}
+@media (max-width:380px){.towns{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<div class="ribbon"><strong>Concept home page by Pixel North</strong><span>Designed for Styal Driving School, using your current website's words. Not a live website.</span></div>
+
+<header class="top"><div class="top-in">
+<a class="mark" href="#top" aria-label="Styal Driving School, home"><b>Styal</b><small>Driving School</small></a>
+<button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+<nav id="nav" aria-label="Main">
+<a href="#lessons">Lessons</a>
+<a href="#about">About Jon</a>
+<a href="#areas">Areas covered</a>
+<a href="#join">Become an instructor</a>
+<a class="call" href="tel:+447834195190">Call Jon</a>
+</nav>
+</div></header>
+
+<div class="hero">
+<div class="hero-art">
+<svg aria-hidden="true" viewBox="0 0 1000 700" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0B4F9C"/><stop offset=".55" stop-color="#4F8FD0"/><stop offset="1" stop-color="#C9DEF3"/></linearGradient>
+<linearGradient id="haze" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C9DEF3" stop-opacity=".9"/><stop offset="1" stop-color="#C9DEF3" stop-opacity="0"/></linearGradient>
+<linearGradient id="tar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5A6470"/><stop offset=".25" stop-color="#2D3238"/><stop offset="1" stop-color="#1B1E22"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2B4A6E"/><stop offset="1" stop-color="#16293F"/></linearGradient>
+</defs>
+<rect width="1000" height="700" fill="url(#sky)"/>
+<circle cx="880" cy="250" r="46" fill="#FFF3C4" opacity=".9"/>
+<ellipse cx="260" cy="150" rx="150" ry="20" fill="#fff" opacity=".18"/>
+<ellipse cx="700" cy="110" rx="190" ry="22" fill="#fff" opacity=".14"/>
+<g class="ground">
+<path d="M-400 335 Q-200 250 0 310 T400 300 T760 318 T1400 290 V340 H-400Z" fill="#3E78A8"/>
+<path d="M-400 345 Q-150 290 120 330 T520 326 T900 336 T1400 318 V360 H-400Z" fill="#2F6B58"/>
+<rect x="-400" y="330" width="1800" height="800" fill="#3A7A55"/>
+<path d="M-400 330 H1400 V345 H-400Z" fill="url(#haze)"/>
+<path d="M240 700 L1240 700 L765 330 L715 330Z" fill="url(#tar)"/>
+<path d="M240 700 L205 700 L713 330 L715 330Z" fill="#F4F5F2" opacity=".9"/>
+<path d="M1240 700 L1275 700 L767 330 L765 330Z" fill="#F4F5F2" opacity=".9"/>
+<g fill="#F4F5F2"><path d="M732.0 700.0L748.0 700.0L746.3 623.7L733.7 623.7Z"/><path d="M734.8 568.7L745.2 568.7L744.4 534.4L735.6 534.4Z"/><path d="M736.2 506.2L743.8 506.2L743.4 486.8L736.6 486.8Z"/><path d="M737.0 469.6L743.0 469.6L742.7 457.1L737.3 457.1Z"/><path d="M737.5 445.6L742.5 445.6L742.3 436.9L737.7 436.9Z"/><path d="M737.9 428.7L742.1 428.7L742.0 422.3L738.0 422.3Z"/><path d="M738.1 416.0L741.9 416.0L741.8 411.1L738.2 411.1Z"/><path d="M738.4 406.3L741.6 406.3L741.6 402.4L738.4 402.4Z"/><path d="M738.5 398.5L741.5 398.5L741.4 395.4L738.6 395.4Z"/><path d="M738.7 392.2L741.3 392.2L741.3 389.6L738.7 389.6Z"/><path d="M738.8 386.9L741.2 386.9L741.2 384.7L738.8 384.7Z"/><path d="M738.9 382.5L741.1 382.5L741.1 380.6L738.9 380.6Z"/><path d="M738.9 378.7L741.1 378.7L741.0 377.1L739.0 377.1Z"/><path d="M739.0 375.4L741.0 375.4L741.0 374.0L739.0 374.0Z"/></g>
+<g fill="#2A5E46"><rect x="815" y="316" width="3" height="14" fill="#4A3B2A"/><circle cx="816" cy="311" r="10"/><rect x="852" y="318" width="3" height="12" fill="#4A3B2A"/><circle cx="853" cy="314" r="8"/><rect x="40" y="318" width="3" height="12" fill="#4A3B2A"/><circle cx="41" cy="313" r="9"/></g>
+<g transform="translate(930 350) scale(0.62)"><rect x="-13" y="-16" width="26" height="12" rx="4" fill="#fff"/><circle cx="-4" cy="-12" r="3.5" fill="#1A1C1F"/><circle cx="6" cy="-10" r="3" fill="#1A1C1F"/><rect x="12" y="-18" width="8" height="8" rx="3" fill="#fff"/><rect x="17" y="-15" width="4" height="4" rx="1.5" fill="#F2A7B0"/><path d="M-9 -4 V2 M-3 -4 V2 M5 -4 V2 M10 -4 V2" stroke="#1A1C1F" stroke-width="2.2"/></g><g transform="translate(968 346) scale(0.5)"><rect x="-13" y="-16" width="26" height="12" rx="4" fill="#fff"/><circle cx="-4" cy="-12" r="3.5" fill="#1A1C1F"/><circle cx="6" cy="-10" r="3" fill="#1A1C1F"/><rect x="12" y="-18" width="8" height="8" rx="3" fill="#fff"/><rect x="17" y="-15" width="4" height="4" rx="1.5" fill="#F2A7B0"/><path d="M-9 -4 V2 M-3 -4 V2 M5 -4 V2 M10 -4 V2" stroke="#1A1C1F" stroke-width="2.2"/></g><g transform="translate(1000 352) scale(0.7)"><rect x="-13" y="-16" width="26" height="12" rx="4" fill="#fff"/><circle cx="-4" cy="-12" r="3.5" fill="#1A1C1F"/><circle cx="6" cy="-10" r="3" fill="#1A1C1F"/><rect x="12" y="-18" width="8" height="8" rx="3" fill="#fff"/><rect x="17" y="-15" width="4" height="4" rx="1.5" fill="#F2A7B0"/><path d="M-9 -4 V2 M-3 -4 V2 M5 -4 V2 M10 -4 V2" stroke="#1A1C1F" stroke-width="2.2"/></g>
+<g fill="#F4F5F2" opacity=".95"><path d="M685.2 355.0L691.5 355.0L677.3 368.0L669.2 368.0Z"/><path d="M697.9 355.0L704.2 355.0L693.7 368.0L685.6 368.0Z"/><path d="M710.6 355.0L716.8 355.0L710.1 368.0L702.0 368.0Z"/><path d="M723.3 355.0L729.5 355.0L726.5 368.0L718.4 368.0Z"/><path d="M735.9 355.0L742.2 355.0L742.9 368.0L734.8 368.0Z"/><path d="M748.6 355.0L754.9 355.0L759.3 368.0L751.1 368.0Z"/><path d="M761.3 355.0L767.6 355.0L775.7 368.0L767.5 368.0Z"/><path d="M774.0 355.0L780.3 355.0L792.1 368.0L783.9 368.0Z"/><path d="M786.7 355.0L793.0 355.0L808.5 368.0L800.3 368.0Z"/></g>
+<g transform="translate(657.2 369)"><rect x="-1.2" y="-22" width="2.4" height="22" fill="#fff"/><rect x="-1.2" y="-19" width="2.4" height="4" fill="#111"/><rect x="-1.2" y="-11" width="2.4" height="4" fill="#111"/><circle class="beacon" cx="0" cy="-25" r="3.6" fill="#FF9A1F"/></g><g transform="translate(822.8 369)"><rect x="-1.2" y="-22" width="2.4" height="22" fill="#fff"/><rect x="-1.2" y="-19" width="2.4" height="4" fill="#111"/><rect x="-1.2" y="-11" width="2.4" height="4" fill="#111"/><circle class="beacon" cx="0" cy="-25" r="3.6" fill="#FF9A1F"/></g>
+<g transform="translate(948.1 468) scale(0.418)"><ellipse cx="0" cy="1" rx="9" ry="2.5" fill="#000" opacity=".28"/><rect x="-2.8" y="-135" width="5.6" height="135" rx="1.5" fill="#98A2AD"/><rect x="-2.8" y="-135" width="2" height="135" fill="#B9C1CA"/><path d="M0 -146 L39 -80 H-39Z" fill="#fff" stroke="#D4202C" stroke-width="8.5" stroke-linejoin="round"/><g fill="#111"><circle cx="-8" cy="-112" r="4.2"/><rect x="-12.5" y="-107" width="9" height="14" rx="3.5"/><path d="M-10 -94 V-85 M-6 -94 V-85" stroke="#111" stroke-width="2.6" stroke-linecap="round"/><circle cx="9" cy="-106" r="3.4"/><rect x="5" y="-102" width="8" height="11.5" rx="3"/><path d="M7 -91 V-85 M11 -91 V-85" stroke="#111" stroke-width="2.3" stroke-linecap="round"/><path d="M-4 -100 L5 -98" stroke="#111" stroke-width="2.6" stroke-linecap="round"/></g></g>
+<g transform="translate(855.2 398) scale(0.206)"><ellipse cx="0" cy="1" rx="9" ry="2.5" fill="#000" opacity=".28"/><rect x="-2.8" y="-135" width="5.6" height="135" rx="1.5" fill="#98A2AD"/><rect x="-2.8" y="-135" width="2" height="135" fill="#B9C1CA"/><circle cx="0" cy="-112" r="24" fill="#fff" stroke="#D4202C" stroke-width="7"/><text x="0" y="-103" text-anchor="middle" font-family="Archivo,Arial,sans-serif" font-weight="800" font-size="25" fill="#111">20</text></g>
+<g transform="translate(900.4 432) scale(0.309)"><ellipse cx="0" cy="1" rx="9" ry="2.5" fill="#000" opacity=".28"/><rect x="-2.8" y="-135" width="5.6" height="135" rx="1.5" fill="#98A2AD"/><rect x="-2.8" y="-135" width="2" height="135" fill="#B9C1CA"/><path d="M0 -146 L39 -80 H-39Z" fill="#fff" stroke="#D4202C" stroke-width="8.5" stroke-linejoin="round"/><g fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="-10" cy="-91" r="6.5"/><circle cx="10" cy="-91" r="6.5"/><path d="M-10 -91 L-2 -102 H7 L10 -91 M-2 -102 L2 -91 H-10 M7 -102 L5.5 -108 M3 -108 H9"/><path d="M-3 -108 L2 -101" stroke-width="3.4"/></g><circle cx="-4" cy="-113" r="3.4" fill="#111"/></g>
+<g transform="translate(704 392)"><ellipse cx="0" cy="-8" rx="2" ry="8" fill="#14181d"/><rect x="-4" y="-21" width="8" height="11" rx="3" fill="#F5C400"/><circle cx="0" cy="-25" r="3.6" fill="#F2C9A0"/><path d="M-3.7 -26 Q0 -32 3.7 -26Z" fill="#D4202C"/><path d="M-4 -19 L-8 -12 M4 -19 L8 -12" stroke="#F5C400" stroke-width="2.2" stroke-linecap="round"/></g>
+<g transform="translate(652 368)"><g class="walkers"><g transform="translate(0 0)"><g class="wad"><g><circle cx="0" cy="-22.5" r="3.2" fill="#F2C9A0"/><rect x="-3.6" y="-19.5" width="7.2" height="12.5" rx="3" fill="#C8102E"/><path d="M-1.8 -7.5 L-2.6 0 M1.8 -7.5 L2.6 0" stroke="#1A1C1F" stroke-width="2.1" stroke-linecap="round"/></g></g></g><g transform="translate(-7 0)"><g class="wad b"><g><circle cx="0" cy="-15" r="2.6" fill="#F2C9A0"/><rect x="-2.8" y="-12.5" width="5.6" height="8.5" rx="2.4" fill="#F5C400"/><path d="M-1.3 -4.5 L-1.9 0 M1.3 -4.5 L1.9 0" stroke="#1A1C1F" stroke-width="1.7" stroke-linecap="round"/></g></g></g></g></g>
+<g class="road-car"><g transform="translate(580 560)">
+<ellipse cx="0" cy="4" rx="150" ry="10" fill="#000" opacity=".5"/>
+<rect x="-120" y="-44" width="40" height="44" rx="7" fill="#0F1113"/><rect x="80" y="-44" width="40" height="44" rx="7" fill="#0F1113"/>
+<path d="M-102 -80 L-86 -152 Q-82 -164 -68 -164 L68 -164 Q82 -164 86 -152 L102 -80Z" fill="#8EC0EA"/>
+<path d="M-86 -84 L-74 -148 L74 -148 L86 -84Z" fill="url(#glass)"/>
+<path d="M-74 -148 L-30 -148 L-62 -84 L-86 -84Z" fill="#fff" opacity=".1"/>
+<rect x="-128" y="-82" width="256" height="66" rx="16" fill="#8EC0EA"/>
+<rect x="-128" y="-30" width="256" height="22" rx="8" fill="#6FA3CE"/>
+<rect x="-124" y="-74" width="36" height="26" rx="6" class="tail" fill="#C41E30"/><rect x="88" y="-74" width="36" height="26" rx="6" class="tail" fill="#C41E30"/>
+<rect x="-52" y="-62" width="104" height="24" rx="3" fill="#F5C400"/>
+<rect x="-40" y="-55" width="80" height="4" rx="2" fill="#1A1C1F" opacity=".55"/><rect x="-30" y="-47" width="60" height="4" rx="2" fill="#1A1C1F" opacity=".45"/>
+<rect x="-19" y="-142" width="38" height="38" rx="3" fill="#fff"/><path d="M-8 -134 v22 h17" fill="none" stroke="#D4202C" stroke-width="6.5"/>
+</g></g>
+</g>
+</svg>
+<img class="hero-photo" src="images/hero.jpg" width="2400" height="1350" alt="Jon's learner car on a quiet Cheshire road" fetchpriority="high" onerror="this.remove()">
+</div>
+<section id="top" class="hero-in">
+<div class="hero-text">
+<h1>Learn to drive with someone patient, friendly and local.</h1>
+<div class="hero-card">
+<p>One-to-one lessons with Jon, a DVSA-approved instructor covering South Manchester and Cheshire. He picks you up from home, school, college or work.</p>
+<div class="cta">
+<a class="btn y" href="tel:+447834195190"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>Call 07834 195 190</a>
+<a class="btn o" href="sms:+447834195190">Text Jon</a>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+<div class="facts"><ul>
+<li><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#F5C400" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8.2-7 10-4-1.8-7-5.5-7-10V6l7-3z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg><div><b>DVSA approved</b>Approved to teach by the Driver and Vehicle Standards Agency</div></li>
+<li><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#F5C400" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5 21c0-4 3-6.5 7-6.5s7 2.5 7 6.5"/></svg><div><b>One to one</b>Just you and Jon, with no piggy-back lessons</div></li>
+<li><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#F5C400" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-5-7-10.500a7 7 0 0 1 14 0C19 16 12 21 12 21z"/><circle cx="12" cy="10.5" r="2.5"/></svg><div><b>18 areas covered</b>South Manchester and Cheshire</div></li>
+<li><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#F5C400" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7M5 10v10h14V10"/><path d="M10 20v-5h4v5"/></svg><div><b>Picked up where suits you</b>Home, school, college or work</div></li>
+</ul></div>
+
+<section id="about" class="wrap about">
+<div>
+<h2>Friendly, patient and focused on you.</h2>
+<p class="lead">Jon Bennion owns and runs Styal Driving School, and he teaches every lesson himself. He works with people of all ages, with one aim: to make you a confident and competent driver.</p>
+<p>Because there are no piggy-back lessons, the time in the car is always yours.</p>
+</div>
+<ul class="ticks">
+<li><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="15" fill="#F5C400"/><path d="M8.5 15.500l4.2 4.2 8.8-9.4" fill="none" stroke="#111" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div><b>Approved by the DVSA</b><span>Approved to teach by the Driver and Vehicle Standards Agency.</span></div></li>
+<li><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="15" fill="#F5C400"/><path d="M8.5 15.500l4.2 4.2 8.8-9.4" fill="none" stroke="#111" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div><b>Background checked</b><span>So you can book with confidence.</span></div></li>
+<li><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="15" fill="#F5C400"/><path d="M8.5 15.500l4.2 4.2 8.8-9.4" fill="none" stroke="#111" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div><b>Trained to teach</b><span>ORDIT trained and a QCF assessor.</span></div></li>
+<li><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="15" fill="#F5C400"/><path d="M8.5 15.500l4.2 4.2 8.8-9.4" fill="none" stroke="#111" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div><b>Customer service minded</b><span>A Diploma in Customer Service, and fleet qualified.</span></div></li>
+</ul>
+</section>
+
+<div class="lessons">
+<section id="lessons" class="wrap">
+<div class="lead-in">
+<h2>Six ways to learn, whatever your timetable.</h2>
+<p>Call or text Jon to talk through which suits you. He will give you a price when you get in touch.</p>
+</div>
+<div class="grp">
+<header class="grp-head"><span class="tag">Learning to drive</span><p>For anyone starting out.</p></header>
+<div class="row"><h3>Weekly</h3><p>A regular lesson each week, at a pace that suits you and your diary.</p><a href="tel:+447834195190">Ask Jon about weekly</a></div>
+<div class="row"><h3>Semi-intensive</h3><p>More lessons each week, for when you want to build your skills faster.</p><a href="tel:+447834195190">Ask Jon about semi-intensive</a></div>
+<div class="row"><h3>Intensive</h3><p>Concentrated lessons over a short stretch, if you want to learn in a hurry.</p><a href="tel:+447834195190">Ask Jon about intensive</a></div>
+</div>
+<div class="grp">
+<header class="grp-head"><span class="tag">Already driving</span><p>For drivers who have passed or already hold a licence.</p></header>
+<div class="row"><h3>Pass Plus</h3><p>Extra training once you have passed, to build experience in more situations.</p><a href="tel:+447834195190">Ask Jon about Pass Plus</a></div>
+<div class="row"><h3>Refresher</h3><p>Got a licence but need your confidence back? Brush up with Jon beside you.</p><a href="tel:+447834195190">Ask Jon about refreshers</a></div>
+<div class="row"><h3>Motorway</h3><p>Get to know motorway driving, with an instructor alongside to guide you.</p><a href="tel:+447834195190">Ask Jon about motorway</a></div>
+</div>
+</section>
+</div>
+
+<div class="steps-sec">
+<section class="wrap" aria-label="How to book">
+<h2 style="max-width:18ch">Booking your first lesson takes one call or text.</h2>
+<ol class="steps">
+<li><span class="limit" aria-hidden="true">1</span><div><h3>Call or text Jon</h3><p>Tell him where you live and what you are after. He will talk you through the options.</p></div></li>
+<li><span class="limit" aria-hidden="true">2</span><div><h3>Pick your pick-up spot</h3><p>Lessons can start from your home, school, college or work.</p></div></li>
+<li><span class="limit" aria-hidden="true">3</span><div><h3>Hop in and start learning</h3><p>One to one with Jon, working towards becoming a confident driver.</p></div></li>
+</ol>
+</section>
+</div>
+
+<section id="areas" class="areas">
+<div class="wrap">
+<div class="sign">
+<h2>Covering South Manchester and Cheshire.</h2>
+<p>Tap your town to see if Jon covers it.</p>
+<ul class="towns" id="towns">
+<li><button type="button" aria-pressed="false">Alderley Edge</button></li><li><button type="button" aria-pressed="false">Baguley</button></li><li><button type="button" aria-pressed="false">Barnton</button></li><li><button type="button" aria-pressed="false">Bramhall</button></li><li><button type="button" aria-pressed="false">Cheadle</button></li><li><button type="button" aria-pressed="false">Cheadle Hulme</button></li><li><button type="button" aria-pressed="false">Didsbury</button></li><li><button type="button" aria-pressed="false">Gatley</button></li><li><button type="button" aria-pressed="false">Handforth</button></li><li><button type="button" aria-pressed="false">Heald Green</button></li><li><button type="button" aria-pressed="false">Knutsford</button></li><li><button type="button" aria-pressed="false">Newall Green</button></li><li><button type="button" aria-pressed="false">Northwich</button></li><li><button type="button" aria-pressed="false">Poynton</button></li><li><button type="button" aria-pressed="false">Sale</button></li><li><button type="button" aria-pressed="false">Timperley</button></li><li><button type="button" aria-pressed="false">Wilmslow</button></li><li><button type="button" aria-pressed="false">Wythenshawe</button></li>
+</ul>
+<div class="ask"><button type="button" id="other" aria-pressed="false">My town is not listed</button></div>
+<p class="plate" id="result" role="status" aria-live="polite">Other areas may be available on request, so if yours is not listed, just ask Jon.</p>
+</div>
+</div>
+</section>
+
+<section id="join" class="join">
+<div class="wrap">
+<div>
+<h2>Thinking of becoming a driving instructor?</h2>
+<p>Styal Driving School is an expanding school and is looking for instructors. If you are interested in becoming one, or in working with the school, contact Jon for an informal chat.</p>
+</div>
+<a class="btn k" href="tel:+447834195190">Call or text Jon</a>
+</div>
+</section>
+
+<footer>
+<div class="fin">
+<div class="fcta">
+<h2>Mirror. Signal. Call Jon.</h2>
+<div class="cta"><a class="btn y" href="tel:+447834195190">Call 07834 195 190</a><a class="btn o" href="sms:+447834195190">Text Jon</a></div>
+</div>
+<div>
+<a class="mark" href="#top" aria-label="Styal Driving School, back to top" style="padding:9px 18px 10px"><b>Styal</b><small>Driving School</small></a>
+<p>One-to-one driving lessons with Jon Bennion, across South Manchester and Cheshire.</p>
+</div>
+<div>
+<strong style="color:#fff">To book or find out more</strong><br>
+<a href="tel:+447834195190">Call 07834 195 190</a><br>
+<a href="sms:+447834195190">Text 07834 195 190</a>
+</div>
+<nav class="fnav" aria-label="Footer">
+<a href="#lessons">Lessons</a><a href="#about">About Jon</a><a href="#areas">Areas covered</a><a href="#join">Become an instructor</a>
+</nav>
+</div>
+<div class="fbar"><div>
+<span>&copy; Styal Driving School</span>
+<span class="credit"><svg width="22" height="22" viewBox="0 0 512 512" fill="none" stroke="#F5C400" stroke-width="26" aria-hidden="true"><path d="M30 464H480"/><path d="M70 464V268L195 205V268L325 205V268L445 205V464"/><path d="M347 250L359 45H413L425 205"/><path d="M362 78H410"/><rect x="120" y="318" width="64" height="64"/><rect x="226" y="318" width="64" height="64"/><rect x="331" y="318" width="64" height="64"/></svg><span>Another small business site, sorted, by <a href="https://pixel-north.co.uk" target="_blank" rel="noopener">Pixel North</a>.</span></span>
+</div></div>
+</footer>
+
+<script>
+(function(){
+var b=document.querySelector('.burger'),n=document.getElementById('nav');
+function set(o){n.classList.toggle('open',o);b.setAttribute('aria-expanded',o?'true':'false')}
+b.addEventListener('click',function(){set(!n.classList.contains('open'))});
+n.addEventListener('click',function(e){if(e.target.closest('a'))set(false)});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')set(false)});
+var wrap=document.getElementById('areas'),r=document.getElementById('result'),other=document.getElementById('other');
+var all=[].slice.call(wrap.querySelectorAll('.towns button')).concat([other]);
+var tel='<a href="tel:+447834195190">07834 195 190</a>';
+all.forEach(function(x){x.addEventListener('click',function(){
+all.forEach(function(y){y.setAttribute('aria-pressed',y===x?'true':'false')});
+if(x===other){r.className='plate';r.innerHTML='Other areas may be available on request. <strong>Call or text Jon on '+tel+'</strong> to ask.'}
+else{r.className='plate hit';r.innerHTML='<strong>Yes, Jon covers '+x.textContent+'.</strong> Call or text him on '+tel+' to book your first lesson.'}
+})});
+})();
+</script>
+</body>
+</html>
